@@ -15,7 +15,7 @@ Then copy the public key to the remote machine
 
 ssh into the machine and run
 ```
-curl -sSL https://raw.githubusercontent.com/moongooseorg/infra-new-host/scripts/bootstrap.sh | bash
+curl -fsSL https://raw.githubusercontent.com/moongooseorg/infra-new-host/main/scripts/bootstrap.sh | bash
 ```
 
 ##### (note) If your initial system is already setup
